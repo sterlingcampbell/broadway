@@ -16,8 +16,13 @@ h1{
   font-size: 18px;
   color: white;
 }
+
+ul {
+    list-style-type: none;
+}
 .hero, .design {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-size: cover;
 }
 
 .design {
@@ -25,13 +30,24 @@ h1{
   font-weight: bold;
   color: white;
 }
-footer {
+
+.footer {
   background-color: dimgray;
   color: white;
+}
+
+.footer p {
+  color:white;
   font-size: 11px;
+  text-align: left;
 }
 
 p {
   font-size: 14px;
   color: black;
+}
+
+.btn-nav {
+  font-size: 18px;
+  color: white;
 }
