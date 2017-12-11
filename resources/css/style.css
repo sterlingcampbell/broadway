@@ -20,6 +20,11 @@ h1{
 ul {
     list-style-type: none;
 }
+
+.navigation li {
+  padding: 10px;
+}
+
 .hero, .design {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   background-size: cover;
